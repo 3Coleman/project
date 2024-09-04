@@ -7,7 +7,7 @@ SERIAL_PORT = 'COM100'  # Replace with your serial port (e.g., 'COM3' for Window
 BAUD_RATE = 115200              # Baud rate (should match the device's baud rate)
 TIMEOUT = 1                   # Timeout in seconds for read operations
 LOG_FILE = 'serial_log.txt'  # Log file name
-LOG_DURATION = 20            # Duration to collect logs in seconds
+LOG_DURATION = 20           # Duration to collect logs in seconds
 
 # Configure logging
 logging.basicConfig(
