@@ -22,9 +22,10 @@
 #in above cases of poping out   an element at index 1 ,n mumber of  operation happening due to rearrangement of the indexes for rest of the existing element  ,ie O(n)
 
 
-O(n^2)=a ;oop within a loop
-O(n)=propotional
-O(logn)=divide and conqour
-O(1)=constant
-Big O cheat sheet 
-https://www.bigocheatsheet.com/
+# O(n^2)=a ;oop within a loop
+# O(n)=propotional
+# O(logn)=divide and conqour
+# O(1)=constant
+# Big O cheat sheet 
+# https://www.bigocheatsheet.com/
+print("hello world")
