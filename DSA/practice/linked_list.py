@@ -16,3 +16,20 @@
 
 # Linked List: Efficient as it only requires changing a few pointers.
 # Python List: Less efficient because it often requires shifting elements to accommodate changes.
+class node:
+    def __init__(self,value):
+        self.value=value
+        self.next=None
+class linked_list:
+    def __init__(self,value):
+        new_node=node(value)
+        self.head=new_node
+        self.tail=new_node
+        self.length=1
+my_linked_list=linked_list(5)
+
+print(my_linked_list.head.value)
+
+print(my_linked_list.tail.value)
+
+print(my_linked_list.length)
