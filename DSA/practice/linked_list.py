@@ -26,10 +26,11 @@ class linked_list:
         self.head=new_node
         self.tail=new_node
         self.length=1
+    def print_list(self):
+        temp=self.head
+        while temp is not None:
+            print(temp.value)
+            temp.next
 my_linked_list=linked_list(5)
 
-print(my_linked_list.head.value)
-
-print(my_linked_list.tail.value)
-
-print(my_linked_list.length)
+print(my_linked_list.print_list())
